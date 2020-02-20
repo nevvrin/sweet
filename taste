@@ -1,0 +1,6 @@
+#exemplo {width: 250px; height: 150px; position: relative; overflow: hidden;background: #efefef; border: 10px solid #fff;} 
+#exemplo .page { -WEBKIT-TRANSITION: 3S ALL EASE-IN-OUT; -MOZ-TRANSITION: 0.5S ALL EASE-IN-OUT; O-TRANSITION: 0.5S ALL EASE-IN-OUT; position: absolute; bottom: 0px; left: 0px; width: 200px; height: 150px;} 
+#exemplo:hover .page {-WEBKIT-TRANSITION: 3S ALL EASE-IN-OUT; -MOZ-TRANSITION: 0.5S ALL EASE-IN-OUT; O-TRANSITION: 0.5S ALL EASE-IN-OUT; left: -250px; -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);}
+.title {font: 700 26px 'roboto mono'; width: 300px; text-align: left; line-height: 140%; color: #fff;text-transform: uppercase;border-bottom: 5px solid #fff;position: absolute; margin-top: 35px; margin-left: 80px;padding-right: 200px;}
+.title2 {font: 700 25px 'roboto mono'; width: 200px; line-height: 140%; color: #fff;text-transform: uppercase;position: absolute; margin-top: 80px; margin-left: 160px;padding-left: 90px;}
